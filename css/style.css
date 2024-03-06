@@ -6,3 +6,34 @@
 body {
   font-family: sans-serif;
 }
+
+.banner {
+  background-image: url("../img/banner-topo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.banner .empresa {
+  max-width: 250px;
+  color: #3c184e;
+}
+.empresa p:nth-child(1) {
+  font-size: 35px;
+  margin: 0 0 5px 0;
+}
+.empresa p:nth-child(2) {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+.empresa img {
+  width: 35px;
+  margin-right: 8px;
+}
+.banner .container {
+  max-width: 1024px;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 70px auto 0 auto;
+  background-color: #ffffffc4;
+  box-shadow: 0 8px 32px #1f26875e;
+}
