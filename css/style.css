@@ -18,12 +18,15 @@
 body {
   font-family: var(--font-text);
 }
+.secao{
+  padding: 120px 80px;
+
+}
 
 .banner {
   background-image: url("../img/banner-topo.jpg");
   background-position: center;
   background-size: cover;
-  padding: 120px 80px;
 }
 .banner .empresa {
   max-width: 250px;
@@ -78,4 +81,8 @@ body {
 .banner .container img {
   width: 100%;
   max-width: 20px;
+}
+
+.servicos{
+
 }
