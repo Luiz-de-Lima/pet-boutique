@@ -1,20 +1,33 @@
+/* cores globais */
+:root {
+  --primary-color: #3c184e;
+  --secondary-color: #fff;
+  --bg-color: #ffffffc4;
+  --box-shadow-color: #1f26875e;
+  --image-bg-color: #0000005c;
+  --transparence-color-effect: #ffffffc4;
+  --font-text: sans-serif;
+  --fonte-italico: italic;
+  --fonte-negrito: 700;
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
+  font-family: var(--font-text);
 }
 
 .banner {
   background-image: url("../img/banner-topo.jpg");
   background-position: center;
   background-size: cover;
+  padding: 120px 80px;
 }
 .banner .empresa {
   max-width: 250px;
-  color: #3c184e;
+  color: var(--primary-color);
 }
 .empresa p:nth-child(1) {
   font-size: 35px;
@@ -27,13 +40,42 @@ body {
 }
 .empresa img {
   width: 35px;
-  margin-right: 8px;
+  margin-right: 5px;
 }
 .banner .container {
   max-width: 1024px;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 40px;
   margin: 70px auto 0 auto;
-  background-color: #ffffffc4;
-  box-shadow: 0 8px 32px #1f26875e;
+  background-color: var(--bg-color);
+  box-shadow: 0 8px 32px var(--box-shadow-color);
+  text-align: center;
+}
+.banner .container h1 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+}
+.banner .container p {
+  width: 200px;
+  padding: 10px 25px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.banner .container a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.banner .container a:hover {
+  filter: brightness(0.9);
+}
+.banner .container img {
+  width: 100%;
+  max-width: 20px;
 }
