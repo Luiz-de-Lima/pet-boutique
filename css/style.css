@@ -18,9 +18,15 @@
 body {
   font-family: var(--font-text);
 }
-.secao{
+.secao {
   padding: 120px 80px;
-
+}
+.destaque {
+  font-weight: 700;
+  font-style: italic;
+}
+a {
+  text-decoration: none;
 }
 
 .banner {
@@ -83,6 +89,50 @@ body {
   max-width: 20px;
 }
 
-.servicos{
+.servicos h3 {
+  font-size: 36px;
+  color: var(--primary-color);
+  text-align: center;
+  margin: 0 0 45px 0;
+}
 
+.servicos--list {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  color: var(--primary-color);
+}
+.servicos--list ul {
+  list-style-type: square;
+}
+.servicos--list li {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+}
+.servicos--list span {
+  font-weight: bold;
+  font-style: italic;
+}
+.servicos--images {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.servicos--images img {
+  border-radius: 5px;
+  box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+.redes-sociais {
+  background-color: var(--primary-color);
+  text-align: center;
+}
+.redes-sociais p {
+  width: 800px;
+  margin: 0 auto 50px auto;
+  font-size: 40px;
+  color: var(--secondary-color);
+}
+.redes-sociais .container-images img {
+  margin: 0 20px;
+  width: 50px;
+  height: 50px;
 }
