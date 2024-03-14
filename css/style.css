@@ -146,8 +146,37 @@ a {
   width: 800px;
   margin: 0 auto;
 }
-.marcas .container  img{
+.marcas .container img {
   width: 148px;
   height: 148px;
   margin: 0 15px;
+}
+.onde-estamos {
+  text-align: center;
+  color: var(--primary-color);
+}
+.onde-estamos h3,
+p {
+  margin: 0 0 45px 0;
+}
+.onde-estamos h3 {
+  font-size: 36px;
+}
+.onde-estamos p {
+  font-size: 20px;
+}
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  font-size: 30px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.rodape a {
+  color: var(--secondary-color);
+}
+.rodape a:hover {
+  filter: brightness(0.8);
 }
